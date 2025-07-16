@@ -1,0 +1,45 @@
+{
+  "mixing": {
+    "voiceVolume": 0.8,         
+    "ambienceVolume": 0.2,      
+    "musicVolume": 0.15,        
+    "effectsVolume": 0.3,       
+    "transmissionStaticVolume": 0.1 
+  },
+  "processing": {
+    "sampleRate": 44100,        
+    "bitRate": "192k",          
+    "channels": 2,              
+    "format": "mp3",            
+    "targetLufs": -16,          
+    "truePeakDb": -1.0          
+  },
+  "effects": {
+    "voiceEQ": {
+      "frequency": 3000,
+      "gain": 3,
+      "width": 1000,
+      "description": "General presence boost for Miles Wandr's voice"
+    },
+    "defaultAmbienceEQ": {
+      "frequency": 8000,
+      "gain": -6,
+      "width": 4000,
+      "description": "Subtle high-frequency cut for general ambience to prevent harshness"
+    }
+  },
+  "ducking": {
+    "enabled": true,
+    "threshold": -25,           
+    "ratio": 4,                 
+    "attack": 0.01,             
+    "release": 0.3              
+  },
+  "mastering": {
+    "normalizeLoudness": true,   
+    "limiterThreshold": -1.5,    
+    "limiterMakeupGain": 0.0,    
+    "limiterAttack": 0.001,      
+    "limiterRelease": 0.1       
+  }
+}
