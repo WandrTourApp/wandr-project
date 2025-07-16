@@ -1,0 +1,18 @@
+{
+  "name": "lost-transmissions-automation",
+  "version": "1.0.0",
+  "description": "Automated audio production system for The Lost Transmissions podcast",
+  "main": "process-transmission.js",
+  "scripts": {
+    "start": "node process-transmission.js",
+    "setup": "node setup.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "node-fetch": "^2.6.7",
+    "axios": "^1.6.0"
+  },
+  "author": "Wandr Team",
+  "license": "MIT"
+}
