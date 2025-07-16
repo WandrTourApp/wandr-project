@@ -1,0 +1,142 @@
+{
+  "locations": {
+    "coastal": {
+      "ambience": [
+        "ambience/coastal/ocean-waves-calm.mp3",
+        "ambience/coastal/seagulls-distant.mp3",
+        "ambience/coastal/ocean-wind.mp3"
+      ],
+      "effects": [
+        "effects/wave-crash-single.mp3",
+        "effects/fog-horn-distant.mp3"
+      ]
+    },
+    "urban": {
+      "ambience": [
+        "ambience/urban/city-traffic-hum.mp3",
+        "ambience/urban/distant-voices.mp3",
+        "ambience/urban/street-market-bustle.mp3"
+      ],
+      "effects": [
+        "effects/car-horn-brief.mp3",
+        "effects/footsteps-concrete.mp3",
+        "effects/siren-passing.mp3"
+      ]
+    },
+    "forest": {
+      "ambience": [
+        "ambience/forest/wind-through-trees.mp3",
+        "ambience/forest/birds-forest-day.mp3",
+        "ambience/forest/rustling-leaves-subtle.mp3"
+      ],
+      "effects": [
+        "effects/branch-snap.mp3",
+        "effects/animal-rustle.mp3"
+      ]
+    },
+    "desert": {
+      "ambience": [
+        "ambience/desert/desert-wind-vast.mp3",
+        "ambience/desert/distant-coyote.mp3",
+        "ambience/desert/sandy-wind-gusts.mp3"
+      ],
+      "effects": [
+        "effects/rattlesnake-short.mp3",
+        "effects/sand-sliding.mp3"
+      ]
+    },
+    "mountain": {
+      "ambience": [
+        "ambience/mountain/mountain-wind-high.mp3",
+        "ambience/mountain/distant-echoes.mp3",
+        "ambience/mountain/sparse-wildlife.mp3"
+      ],
+      "effects": [
+        "effects/rock-slide-small.mp3",
+        "effects/wind-gust-strong.mp3"
+      ]
+    },
+    "indoor": {
+      "ambience": [
+        "ambience/indoor/room-tone-subtle.mp3",
+        "ambience/indoor/creaking-old-house.mp3",
+        "ambience/indoor/fireplace-crackle.mp3"
+      ],
+      "effects": [
+        "effects/door-creak.mp3",
+        "effects/clock-ticking.mp3",
+        "effects/page-turn-journal.mp3"
+      ]
+    },
+    "unknown": {
+      "ambience": [
+        "ambience/unknown/generic-hum.mp3",
+        "ambience/unknown/subtle-ambience.mp3"
+      ],
+      "effects": []
+    }
+  },
+  "moods": {
+    "mysterious": {
+      "music": [
+        "music/mysterious/dark-ambient-drone.mp3",
+        "music/mysterious/mystery-pads-slow.mp3",
+        "music/mysterious/eerie-tension-loop.mp3"
+      ]
+    },
+    "adventurous": {
+      "music": [
+        "music/adventurous/exploration-theme-loop.mp3",
+        "music/adventurous/forward-momentum-ambient.mp3",
+        "music/adventurous/discovery-motif.mp3"
+      ]
+    },
+    "historical": {
+      "music": [
+        "music/historical/period-flute-melody.mp3",
+        "music/historical/old-world-strings.mp3",
+        "music/historical/vintage-orchestra-loop.mp3"
+      ]
+    },
+    "tense": {
+      "music": [
+        "music/tense/suspense-building-loop.mp3",
+        "music/tense/dissonant-textures.mp3",
+        "music/tense/heartbeat-pulse-subtle.mp3"
+      ]
+    },
+    "peaceful": {
+      "music": [
+        "music/peaceful/gentle-melodies-calm.mp3",
+        "music/peaceful/resolution-theme-soft.mp3",
+        "music/peaceful/calm-pads-meditative.mp3"
+      ]
+    }
+  },
+  "transmissionEffects": {
+    "static": [
+      "transmission-effects/static/radio-static-light.mp3",
+      "transmission-effects/static/radio-static-heavy.mp3"
+    ],
+    "tuning": [
+      "transmission-effects/tuning/dial-turning.mp3",
+      "transmission-effects/tuning/frequency-search.mp3"
+    ],
+    "signal_loss": [
+      "transmission-effects/interference/signal-dropout-dramatic.mp3",
+      "transmission-effects/interference/signal-fade-out.mp3"
+    ],
+    "vintage_processing": [
+      "transmission-effects/interference/analog-warmth-hiss.mp3",
+      "transmission-effects/interference/tube-saturation-effect.mp3"
+    ]
+  },
+  "structuralElements": {
+    "intro": [
+      "structural/intros/wandr-intro-standard.mp3"
+    ],
+    "outro": [
+      "structural/outros/wandr-outro-standard.mp3"
+    ]
+  }
+}
